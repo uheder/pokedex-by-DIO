@@ -1,2 +1,12 @@
-# pokedex-by-DIO
-Pokedex project wth Angular, by DIO
+# Projeto Pokedéx
+
+
+## Projeto iniciado no curso Desenvolvimento Frontend com Angular, pela plataforma DIO.
+
+### Entre os objetivos do projeto estão inclusos:
+
+* Introdução ao desenvolvimento frontend
+* Introdução ao framework Angular.js
+* Familiarização com frontend no geral
+* Uso de API pública (pokedex)
+
