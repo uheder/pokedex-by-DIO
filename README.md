@@ -8,4 +8,5 @@
 * Introdução ao desenvolvimento frontend
 * Familiarização com frontend no geral
 * Uso de API pública (pokedex)
+* Uso da ferramenta normalize.css
 
