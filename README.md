@@ -6,7 +6,6 @@
 ### Entre os objetivos do projeto estão inclusos:
 
 * Introdução ao desenvolvimento frontend
-* Introdução ao framework Angular.js
 * Familiarização com frontend no geral
 * Uso de API pública (pokedex)
 
