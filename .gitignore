@@ -1,0 +1,55 @@
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+instance/
+
+# Flask environment configuration
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+logs/
+
+# Compiled Python files
+*.pyc
+
+# Compiled C extensions
+*.so
+
+# Caches
+__pycache__/
+.caches/
+
+# Environment variables
+.env
+
+# .DS_Store (OS X)
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
