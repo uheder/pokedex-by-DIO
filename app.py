@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # names api url and a response variable
-    api_url = 'https://pokeapi.co/api/v2/pokemon?limit=10'
+    api_url = 'https://pokeapi.co/api/v2/pokemon?limit=30'
     response = requests.get(api_url)
 
     # checks if it's a valid HTTP response
