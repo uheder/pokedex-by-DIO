@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+        
+    {% for pokemon in pokemons %}
+        <h2> {{pokemon.name}}</h2>
+            <p>URL: {{pokemon.url}}</p>
+    {% endfor %}
+
+
+{% endblock %}
