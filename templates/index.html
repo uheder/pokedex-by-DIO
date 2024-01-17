@@ -1,15 +1,15 @@
 {% extends "layout.html" %}
 
 {% block body %}
-
-    {% for pokemon in pokemons %}
-        <li>
-        {{pokemon.name}}
-        <img src="https://pokeapi.co/api/v2/pokemon/{{pokemon.name}}" alt="">
-        <!-- <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/.svg" alt="{{pokemon.name}}"> -->
-            <p>{{pokemon.url}}</p>
-        </li>
-    {% endfor %}
-
+    <section class="content">
+        <ol class="pokemons">
+            {% for pokemon in pokemons %}
+                <li>
+                {{pokemon.name}}
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/{{ pokemon["id"] }}.svg" alt="{{pokemon.name}}">
+                </li>
+            {% endfor %}
+        </ol>
+    </section>
 
 {% endblock %}
