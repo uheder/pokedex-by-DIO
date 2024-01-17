@@ -2,10 +2,13 @@
 
 {% block body %}
 
-        
     {% for pokemon in pokemons %}
-        <h2> {{pokemon.name}}</h2>
-            <p>URL: {{pokemon.url}}</p>
+        <li>
+        {{pokemon.name}}
+        <img src="https://pokeapi.co/api/v2/pokemon/{{pokemon.name}}" alt="">
+        <!-- <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/.svg" alt="{{pokemon.name}}"> -->
+            <p>{{pokemon.url}}</p>
+        </li>
     {% endfor %}
 
 
