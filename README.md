@@ -10,3 +10,11 @@
 * Uso de API pública (pokeapi.co)
 * Uso da ferramenta normalize.css
 
+
+
+## TODO
+
+* Manter design de poucos pokemons por pagina, e apresentar especificos no ato de busca
+* Considerar apr
+*
+*
