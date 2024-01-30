@@ -24,6 +24,9 @@ fetch(url)
     .then((response) => response.json())
     .then((jsonBody) => jsonBody.results)
     .then((pokemons) => {
+        const pokeName = pokemons.name;
+        const pokemonURL = `https://pokeapi.co/api/v2/${pokeName}`;
+    
         // iterates over the pokemons on the returned array
         for (let i = 0; i < pokemons.length; i++) {
             const pokemon = pokemons[i];
