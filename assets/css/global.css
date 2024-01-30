@@ -59,6 +59,7 @@ h1 {
     margin: .25 0;
     font-size: .625rem;
     border-radius: 1rem;
+    text-transform: capitalize;
 }
 
 .pokemon .detail img{
